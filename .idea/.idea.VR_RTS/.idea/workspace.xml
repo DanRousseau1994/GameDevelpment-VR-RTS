@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62ee8842-6a27-4fa4-9cb0-92a1f6094a13" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PlacementController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Project/Scripts/PlacementController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="66" column="95" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="95" />
+              <folding>
+                <marker date="1528125071784" expanded="true" signature="445:663" ph="{...}" />
+                <marker date="1528125071784" expanded="true" signature="529:657" ph="{...}" />
+                <marker date="1528125071784" expanded="true" signature="705:1072" ph="{...}" />
+                <marker date="1528125071784" expanded="true" signature="799:1066" ph="{...}" />
+                <marker date="1528125071784" expanded="true" signature="857:934" ph="{...}" />
+                <marker date="1528125071784" expanded="true" signature="951:1056" ph="{...}" />
+                <marker date="1528125071784" expanded="true" signature="1117:1602" ph="{...}" />
+                <marker date="1528125071784" expanded="true" signature="1295:1596" ph="{...}" />
+                <marker date="1528125071784" expanded="true" signature="1643:1841" ph="{...}" />
+                <marker date="1528125071784" expanded="true" signature="1878:2051" ph="{...}" />
+                <marker date="1528125071784" expanded="true" signature="1982:2045" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RaycastTeleport.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Project/Scripts/RaycastTeleport.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+              <folding>
+                <marker date="1528125168523" expanded="false" signature="6:78" ph="..." />
+                <marker date="1528125168523" expanded="true" signature="247:855" ph="{...}" />
+                <marker date="1528125168523" expanded="true" signature="320:849" ph="{...}" />
+                <marker date="1528125168523" expanded="true" signature="512:839" ph="{...}" />
+                <marker date="1528125168523" expanded="true" signature="579:825" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OVRDisplay.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Imported/Oculus/VR/Scripts/OVRDisplay.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding>
+                <marker date="1524790609000" expanded="true" signature="0:947" ph="/* Copyright   :   Copyright 2017 Oculus VR, LLC. All Rights reserved. ... */" />
+                <marker date="1524790609000" expanded="false" signature="955:1057" ph="..." />
+                <marker date="1524790609000" expanded="true" signature="1059:1142" ph="/// Manages an Oculus Rift head-mounted display (HMD). ... " />
+                <marker date="1524790609000" expanded="true" signature="1166:7832" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="1170:1262" ph="/// Specifies the size and field-of-view for one eye texture. ... " />
+                <marker date="1524790609000" expanded="true" signature="1291:1543" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="1297:1382" ph="/// The horizontal and vertical size of the texture. ... " />
+                <marker date="1524790609000" expanded="true" signature="1415:1518" ph="/// The angle of the horizontal and vertical field of view in degrees. ... " />
+                <marker date="1524790609000" expanded="true" signature="1546:1643" ph="/// Contains latency measurements for a single frame of rendering. ... " />
+                <marker date="1524790609000" expanded="true" signature="1670:2089" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="1676:1761" ph="/// The time it took to render both eyes in seconds. ... " />
+                <marker date="1524790609000" expanded="true" signature="1788:1873" ph="/// The time it took to perform TimeWarp in seconds. ... " />
+                <marker date="1524790609000" expanded="true" signature="1902:2000" ph="/// The time between the end of TimeWarp and scan-out in seconds. ... " />
+                <marker date="1524790609000" expanded="true" signature="2286:2377" ph="/// Creates an instance of OVRDisplay. Called by OVRManager. ... " />
+                <marker date="1524790609000" expanded="true" signature="2398:2424" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="2427:2529" ph="/// Updates the internal state of the OVRDisplay. Called by OVRManager. ... " />
+                <marker date="1524790609000" expanded="true" signature="2551:2800" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="2649:2797" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="2684:2716" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="2803:2873" ph="/// Occurs when the head pose is reset. ... " />
+                <marker date="1524790609000" expanded="true" signature="2920:2979" ph="/// Recenters the head pose. ... " />
+                <marker date="1524790609000" expanded="true" signature="3007:3630" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="3145:3463" ph="/* The current poses are cached for the current frame and won't be updated immediately ... */" />
+                <marker date="1524790609000" expanded="true" signature="3633:3717" ph="/// Gets the current linear acceleration of the head. ... " />
+                <marker date="1524790609000" expanded="true" signature="3746:3934" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="3756:3931" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="3940:4031" ph="/// Gets the current angular acceleration of the head. ... " />
+                <marker date="1524790609000" expanded="true" signature="4070:4313" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="4088:4307" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="4319:4405" ph="/// Gets the current linear velocity of the head. ... " />
+                <marker date="1524790609000" expanded="true" signature="4433:4661" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="4451:4655" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="4665:4746" ph="/// Gets the current angular velocity of the head. ... " />
+                <marker date="1524790609000" expanded="true" signature="4778:4982" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="4788:4979" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="4985:5076" ph="/* Gets the resolution and field of view for the given eye. ... */" />
+                <marker date="1524790609000" expanded="true" signature="4985:5102" ph="/// Gets the resolution and field of view for the given eye. ... " />
+                <marker date="1524790609000" expanded="true" signature="5250:5285" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="5288:5364" ph="/// Gets the current measured latency values. ... " />
+                <marker date="1524790609000" expanded="true" signature="5392:6047" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="5402:6044" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="5780:6015" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="6050:6140" ph="/// Gets application's frame rate reported by oculus plugin ... " />
+                <marker date="1524790609000" expanded="true" signature="6167:6274" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="6176:6271" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="6277:6395" ph="/// Gets the recommended MSAA level for optimal quality/performance the current device. ... " />
+                <marker date="1524790609000" expanded="true" signature="6428:6555" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="6437:6552" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="6558:6667" ph="/// Gets the list of available display frequencies supported by this hardware. ... " />
+                <marker date="1524790609000" expanded="true" signature="6711:6779" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="6782:6861" ph="/// Gets and sets the current display frequency. ... " />
+                <marker date="1524790609000" expanded="true" signature="6892:7015" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="6901:6953" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="6959:7012" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="7047:7304" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="7463:7830" ph="{...}" />
+                <marker date="1524790609000" expanded="true" signature="7705:7826" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstanceController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Easy Input for Gear VR/Scripts/Miscellaneous/InstanceController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+              <folding>
+                <marker date="1518076131000" expanded="false" signature="6:82" ph="..." />
+                <marker date="1518076131000" expanded="true" signature="110:1747" ph="{...}" />
+                <marker date="1518076131000" expanded="true" signature="240:1745" ph="{...}" />
+                <marker date="1518076131000" expanded="true" signature="327:1739" ph="{...}" />
+                <marker date="1518076131000" expanded="true" signature="1029:1159" ph="{...}" />
+                <marker date="1518076131000" expanded="true" signature="1192:1292" ph="{...}" />
+                <marker date="1518076131000" expanded="true" signature="1331:1624" ph="{...}" />
+                <marker date="1518076131000" expanded="true" signature="1641:1728" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StandardPointerReceiver.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Easy Input for Gear VR/Scripts/Standard Controllers/StandardPointerReceiver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <marker date="1518076141000" expanded="false" signature="6:94" ph="..." />
+                <marker date="1518076141000" expanded="true" signature="137:1284" ph="{...}" />
+                <marker date="1518076141000" expanded="true" signature="291:1281" ph="{...}" />
+                <marker date="1518076141000" expanded="true" signature="703:724" ph="{...}" />
+                <marker date="1518076141000" expanded="true" signature="790:810" ph="{...}" />
+                <marker date="1518076141000" expanded="true" signature="895:956" ph="{...}" />
+                <marker date="1518076141000" expanded="true" signature="1046:1112" ph="{...}" />
+                <marker date="1518076141000" expanded="true" signature="1201:1266" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Easy Input for Gear VR/Scripts/Miscellaneous/InstanceController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Easy Input for Gear VR/Scripts/Standard Controllers/StandardPointerReceiver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/PlacementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/RaycastTeleport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Imported/Oculus/VR/Scripts/OVRDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/PlacementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/RaycastTeleport.cs" />
+        <option value="$PROJECT_DIR$/Assets/Teleport.cs" />
+        <option value="$PROJECT_DIR$/Assets/Easy Input for Gear VR/Scripts/Standard Controllers/StandardPointerReceiver.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="VR_RTS" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62ee8842-6a27-4fa4-9cb0-92a1f6094a13" name="Default" comment="" />
+      <created>1528054341174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528054341174</updated>
+      <workItem from="1528054344371" duration="5712000" />
+      <workItem from="1528124783709" duration="986000" />
+      <workItem from="1528228807442" duration="1861000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8559000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="true" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Project/Scripts/PlacementController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="95" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="95" />
+          <folding>
+            <marker date="1528125071784" expanded="true" signature="445:663" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="529:657" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="705:1072" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="799:1066" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="857:934" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="951:1056" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1117:1602" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1295:1596" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1643:1841" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1878:2051" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1982:2045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Project/Scripts/RaycastTeleport.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="72" lean-forward="true" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+          <folding>
+            <marker date="1528125168523" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528125168523" expanded="true" signature="247:855" ph="{...}" />
+            <marker date="1528125168523" expanded="true" signature="320:849" ph="{...}" />
+            <marker date="1528125168523" expanded="true" signature="512:839" ph="{...}" />
+            <marker date="1528125168523" expanded="true" signature="579:825" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Imported/Oculus/VR/Scripts/OVRDisplay.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1524790609000" expanded="true" signature="0:947" ph="/* Copyright   :   Copyright 2017 Oculus VR, LLC. All Rights reserved. ... */" />
+            <marker date="1524790609000" expanded="false" signature="955:1057" ph="..." />
+            <marker date="1524790609000" expanded="true" signature="1059:1142" ph="/// Manages an Oculus Rift head-mounted display (HMD). ... " />
+            <marker date="1524790609000" expanded="true" signature="1166:7832" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="1170:1262" ph="/// Specifies the size and field-of-view for one eye texture. ... " />
+            <marker date="1524790609000" expanded="true" signature="1291:1543" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="1297:1382" ph="/// The horizontal and vertical size of the texture. ... " />
+            <marker date="1524790609000" expanded="true" signature="1415:1518" ph="/// The angle of the horizontal and vertical field of view in degrees. ... " />
+            <marker date="1524790609000" expanded="true" signature="1546:1643" ph="/// Contains latency measurements for a single frame of rendering. ... " />
+            <marker date="1524790609000" expanded="true" signature="1670:2089" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="1676:1761" ph="/// The time it took to render both eyes in seconds. ... " />
+            <marker date="1524790609000" expanded="true" signature="1788:1873" ph="/// The time it took to perform TimeWarp in seconds. ... " />
+            <marker date="1524790609000" expanded="true" signature="1902:2000" ph="/// The time between the end of TimeWarp and scan-out in seconds. ... " />
+            <marker date="1524790609000" expanded="true" signature="2286:2377" ph="/// Creates an instance of OVRDisplay. Called by OVRManager. ... " />
+            <marker date="1524790609000" expanded="true" signature="2398:2424" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="2427:2529" ph="/// Updates the internal state of the OVRDisplay. Called by OVRManager. ... " />
+            <marker date="1524790609000" expanded="true" signature="2551:2800" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="2649:2797" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="2684:2716" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="2803:2873" ph="/// Occurs when the head pose is reset. ... " />
+            <marker date="1524790609000" expanded="true" signature="2920:2979" ph="/// Recenters the head pose. ... " />
+            <marker date="1524790609000" expanded="true" signature="3007:3630" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="3145:3463" ph="/* The current poses are cached for the current frame and won't be updated immediately ... */" />
+            <marker date="1524790609000" expanded="true" signature="3633:3717" ph="/// Gets the current linear acceleration of the head. ... " />
+            <marker date="1524790609000" expanded="true" signature="3746:3934" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="3756:3931" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="3940:4031" ph="/// Gets the current angular acceleration of the head. ... " />
+            <marker date="1524790609000" expanded="true" signature="4070:4313" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="4088:4307" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="4319:4405" ph="/// Gets the current linear velocity of the head. ... " />
+            <marker date="1524790609000" expanded="true" signature="4433:4661" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="4451:4655" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="4665:4746" ph="/// Gets the current angular velocity of the head. ... " />
+            <marker date="1524790609000" expanded="true" signature="4778:4982" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="4788:4979" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="4985:5076" ph="/* Gets the resolution and field of view for the given eye. ... */" />
+            <marker date="1524790609000" expanded="true" signature="4985:5102" ph="/// Gets the resolution and field of view for the given eye. ... " />
+            <marker date="1524790609000" expanded="true" signature="5250:5285" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="5288:5364" ph="/// Gets the current measured latency values. ... " />
+            <marker date="1524790609000" expanded="true" signature="5392:6047" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="5402:6044" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="5780:6015" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6050:6140" ph="/// Gets application's frame rate reported by oculus plugin ... " />
+            <marker date="1524790609000" expanded="true" signature="6167:6274" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6176:6271" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6277:6395" ph="/// Gets the recommended MSAA level for optimal quality/performance the current device. ... " />
+            <marker date="1524790609000" expanded="true" signature="6428:6555" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6437:6552" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6558:6667" ph="/// Gets the list of available display frequencies supported by this hardware. ... " />
+            <marker date="1524790609000" expanded="true" signature="6711:6779" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6782:6861" ph="/// Gets and sets the current display frequency. ... " />
+            <marker date="1524790609000" expanded="true" signature="6892:7015" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6901:6953" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6959:7012" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="7047:7304" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="7463:7830" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="7705:7826" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Project/Scripts/PlacementController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <marker date="1528125071784" expanded="true" signature="445:663" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="529:657" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="705:1072" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="799:1066" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="857:934" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="951:1056" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1117:1602" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1295:1596" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1643:1841" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1878:2051" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1982:2045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Project/Scripts/PlacementController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="95" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="95" />
+          <folding>
+            <marker date="1528125071784" expanded="true" signature="445:663" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="529:657" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="705:1072" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="799:1066" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="857:934" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="951:1056" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1117:1602" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1295:1596" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1643:1841" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1878:2051" ph="{...}" />
+            <marker date="1528125071784" expanded="true" signature="1982:2045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Project/Scripts/RaycastTeleport.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+          <folding>
+            <marker date="1528125168523" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528125168523" expanded="true" signature="247:855" ph="{...}" />
+            <marker date="1528125168523" expanded="true" signature="320:849" ph="{...}" />
+            <marker date="1528125168523" expanded="true" signature="512:839" ph="{...}" />
+            <marker date="1528125168523" expanded="true" signature="579:825" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Imported/Oculus/VR/Scripts/OVRDisplay.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <marker date="1524790609000" expanded="true" signature="0:947" ph="/* Copyright   :   Copyright 2017 Oculus VR, LLC. All Rights reserved. ... */" />
+            <marker date="1524790609000" expanded="false" signature="955:1057" ph="..." />
+            <marker date="1524790609000" expanded="true" signature="1059:1142" ph="/// Manages an Oculus Rift head-mounted display (HMD). ... " />
+            <marker date="1524790609000" expanded="true" signature="1166:7832" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="1170:1262" ph="/// Specifies the size and field-of-view for one eye texture. ... " />
+            <marker date="1524790609000" expanded="true" signature="1291:1543" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="1297:1382" ph="/// The horizontal and vertical size of the texture. ... " />
+            <marker date="1524790609000" expanded="true" signature="1415:1518" ph="/// The angle of the horizontal and vertical field of view in degrees. ... " />
+            <marker date="1524790609000" expanded="true" signature="1546:1643" ph="/// Contains latency measurements for a single frame of rendering. ... " />
+            <marker date="1524790609000" expanded="true" signature="1670:2089" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="1676:1761" ph="/// The time it took to render both eyes in seconds. ... " />
+            <marker date="1524790609000" expanded="true" signature="1788:1873" ph="/// The time it took to perform TimeWarp in seconds. ... " />
+            <marker date="1524790609000" expanded="true" signature="1902:2000" ph="/// The time between the end of TimeWarp and scan-out in seconds. ... " />
+            <marker date="1524790609000" expanded="true" signature="2286:2377" ph="/// Creates an instance of OVRDisplay. Called by OVRManager. ... " />
+            <marker date="1524790609000" expanded="true" signature="2398:2424" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="2427:2529" ph="/// Updates the internal state of the OVRDisplay. Called by OVRManager. ... " />
+            <marker date="1524790609000" expanded="true" signature="2551:2800" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="2649:2797" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="2684:2716" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="2803:2873" ph="/// Occurs when the head pose is reset. ... " />
+            <marker date="1524790609000" expanded="true" signature="2920:2979" ph="/// Recenters the head pose. ... " />
+            <marker date="1524790609000" expanded="true" signature="3007:3630" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="3145:3463" ph="/* The current poses are cached for the current frame and won't be updated immediately ... */" />
+            <marker date="1524790609000" expanded="true" signature="3633:3717" ph="/// Gets the current linear acceleration of the head. ... " />
+            <marker date="1524790609000" expanded="true" signature="3746:3934" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="3756:3931" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="3940:4031" ph="/// Gets the current angular acceleration of the head. ... " />
+            <marker date="1524790609000" expanded="true" signature="4070:4313" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="4088:4307" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="4319:4405" ph="/// Gets the current linear velocity of the head. ... " />
+            <marker date="1524790609000" expanded="true" signature="4433:4661" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="4451:4655" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="4665:4746" ph="/// Gets the current angular velocity of the head. ... " />
+            <marker date="1524790609000" expanded="true" signature="4778:4982" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="4788:4979" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="4985:5076" ph="/* Gets the resolution and field of view for the given eye. ... */" />
+            <marker date="1524790609000" expanded="true" signature="4985:5102" ph="/// Gets the resolution and field of view for the given eye. ... " />
+            <marker date="1524790609000" expanded="true" signature="5250:5285" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="5288:5364" ph="/// Gets the current measured latency values. ... " />
+            <marker date="1524790609000" expanded="true" signature="5392:6047" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="5402:6044" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="5780:6015" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6050:6140" ph="/// Gets application's frame rate reported by oculus plugin ... " />
+            <marker date="1524790609000" expanded="true" signature="6167:6274" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6176:6271" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6277:6395" ph="/// Gets the recommended MSAA level for optimal quality/performance the current device. ... " />
+            <marker date="1524790609000" expanded="true" signature="6428:6555" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6437:6552" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6558:6667" ph="/// Gets the list of available display frequencies supported by this hardware. ... " />
+            <marker date="1524790609000" expanded="true" signature="6711:6779" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6782:6861" ph="/// Gets and sets the current display frequency. ... " />
+            <marker date="1524790609000" expanded="true" signature="6892:7015" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6901:6953" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="6959:7012" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="7047:7304" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="7463:7830" ph="{...}" />
+            <marker date="1524790609000" expanded="true" signature="7705:7826" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Easy Input for Gear VR/Scripts/Miscellaneous/InstanceController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <marker date="1518076131000" expanded="false" signature="6:82" ph="..." />
+            <marker date="1518076131000" expanded="true" signature="110:1747" ph="{...}" />
+            <marker date="1518076131000" expanded="true" signature="240:1745" ph="{...}" />
+            <marker date="1518076131000" expanded="true" signature="327:1739" ph="{...}" />
+            <marker date="1518076131000" expanded="true" signature="1029:1159" ph="{...}" />
+            <marker date="1518076131000" expanded="true" signature="1192:1292" ph="{...}" />
+            <marker date="1518076131000" expanded="true" signature="1331:1624" ph="{...}" />
+            <marker date="1518076131000" expanded="true" signature="1641:1728" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Teleport.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Easy Input for Gear VR/Scripts/Standard Controllers/StandardPointerReceiver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <marker date="1518076141000" expanded="false" signature="6:94" ph="..." />
+            <marker date="1518076141000" expanded="true" signature="137:1284" ph="{...}" />
+            <marker date="1518076141000" expanded="true" signature="291:1281" ph="{...}" />
+            <marker date="1518076141000" expanded="true" signature="703:724" ph="{...}" />
+            <marker date="1518076141000" expanded="true" signature="790:810" ph="{...}" />
+            <marker date="1518076141000" expanded="true" signature="895:956" ph="{...}" />
+            <marker date="1518076141000" expanded="true" signature="1046:1112" ph="{...}" />
+            <marker date="1518076141000" expanded="true" signature="1201:1266" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
