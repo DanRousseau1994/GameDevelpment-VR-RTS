@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 5000457}
   - component: {fileID: 5000456}
   - component: {fileID: 5000460}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,14)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 6234989}
   - component: {fileID: 6234988}
   - component: {fileID: 6234992}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,14)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 20775410}
   - component: {fileID: 20775409}
   - component: {fileID: 20775413}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,0)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 27839585}
   - component: {fileID: 27839584}
   - component: {fileID: 27839588}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,12)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 38271863}
   - component: {fileID: 38271862}
   - component: {fileID: 38271866}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,14)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -860,8 +860,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 4.83}
   m_LocalScale: {x: 0.0075225844, y: 0.0075225844, z: 0.0075225844}
   m_Children:
-  - {fileID: 1446929019}
+  - {fileID: 1926283608}
   - {fileID: 2032051306}
+  - {fileID: 1446929019}
   - {fileID: 109655261}
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -884,7 +885,7 @@ GameObject:
   - component: {fileID: 53262292}
   - component: {fileID: 53262291}
   - component: {fileID: 53262295}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,5)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -1000,7 +1001,7 @@ GameObject:
   - component: {fileID: 59210371}
   - component: {fileID: 59210370}
   - component: {fileID: 59210374}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,10)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -1116,7 +1117,7 @@ GameObject:
   - component: {fileID: 68601540}
   - component: {fileID: 68601539}
   - component: {fileID: 68601543}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,16)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -1232,7 +1233,7 @@ GameObject:
   - component: {fileID: 87159266}
   - component: {fileID: 87159265}
   - component: {fileID: 87159269}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,16)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -1348,7 +1349,7 @@ GameObject:
   - component: {fileID: 90676649}
   - component: {fileID: 90676648}
   - component: {fileID: 90676652}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,17)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -1464,7 +1465,7 @@ GameObject:
   - component: {fileID: 94968175}
   - component: {fileID: 94968174}
   - component: {fileID: 94968178}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,9)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -1580,7 +1581,7 @@ GameObject:
   - component: {fileID: 97192238}
   - component: {fileID: 97192237}
   - component: {fileID: 97192241}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,7)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -1714,11 +1715,11 @@ RectTransform:
   - {fileID: 343600437}
   - {fileID: 514652949}
   m_Father: {fileID: 45561956}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 122, y: 23}
+  m_AnchoredPosition: {x: -99.000015, y: -8.000011}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &109655262
@@ -1760,13 +1761,24 @@ MonoBehaviour:
   m_FillRect: {fileID: 800348709}
   m_HandleRect: {fileID: 1131021104}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -40
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 562895572}
+        m_MethodName: SetSFXVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &118869207
@@ -1864,7 +1876,7 @@ GameObject:
   - component: {fileID: 120139944}
   - component: {fileID: 120139943}
   - component: {fileID: 120139947}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,0)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -2064,7 +2076,7 @@ GameObject:
   - component: {fileID: 129830452}
   - component: {fileID: 129830451}
   - component: {fileID: 129830455}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,17)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -2180,7 +2192,7 @@ GameObject:
   - component: {fileID: 136777073}
   - component: {fileID: 136777072}
   - component: {fileID: 136777076}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,5)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -2296,7 +2308,7 @@ GameObject:
   - component: {fileID: 140365061}
   - component: {fileID: 140365060}
   - component: {fileID: 140365064}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,19)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -2486,7 +2498,7 @@ GameObject:
   - component: {fileID: 162437148}
   - component: {fileID: 162437147}
   - component: {fileID: 162437151}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,13)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -2750,7 +2762,7 @@ GameObject:
   - component: {fileID: 166228297}
   - component: {fileID: 166228296}
   - component: {fileID: 166228300}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,19)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -2866,7 +2878,7 @@ GameObject:
   - component: {fileID: 167986749}
   - component: {fileID: 167986748}
   - component: {fileID: 167986752}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,19)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -2982,7 +2994,7 @@ GameObject:
   - component: {fileID: 172637406}
   - component: {fileID: 172637405}
   - component: {fileID: 172637409}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,15)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -3376,7 +3388,7 @@ GameObject:
   - component: {fileID: 209129458}
   - component: {fileID: 209129457}
   - component: {fileID: 209129461}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,17)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -3492,7 +3504,7 @@ GameObject:
   - component: {fileID: 222574926}
   - component: {fileID: 222574925}
   - component: {fileID: 222574929}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,19)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -3608,7 +3620,7 @@ GameObject:
   - component: {fileID: 232799620}
   - component: {fileID: 232799619}
   - component: {fileID: 232799623}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,5)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -3724,7 +3736,7 @@ GameObject:
   - component: {fileID: 250404786}
   - component: {fileID: 250404785}
   - component: {fileID: 250404789}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,8)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -3840,7 +3852,7 @@ GameObject:
   - component: {fileID: 262171858}
   - component: {fileID: 262171857}
   - component: {fileID: 262171861}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,17)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -4024,7 +4036,7 @@ GameObject:
   - component: {fileID: 268019311}
   - component: {fileID: 268019310}
   - component: {fileID: 268019314}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,18)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -4140,7 +4152,7 @@ GameObject:
   - component: {fileID: 274241753}
   - component: {fileID: 274241752}
   - component: {fileID: 274241756}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,0)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -4330,7 +4342,7 @@ GameObject:
   - component: {fileID: 298666271}
   - component: {fileID: 298666270}
   - component: {fileID: 298666274}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,6)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -4480,7 +4492,7 @@ GameObject:
   - component: {fileID: 301275393}
   - component: {fileID: 301275392}
   - component: {fileID: 301275396}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,13)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -4596,7 +4608,7 @@ GameObject:
   - component: {fileID: 312453148}
   - component: {fileID: 312453147}
   - component: {fileID: 312453151}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,19)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -4712,7 +4724,7 @@ GameObject:
   - component: {fileID: 321796703}
   - component: {fileID: 321796702}
   - component: {fileID: 321796706}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,2)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -4828,7 +4840,7 @@ GameObject:
   - component: {fileID: 326426358}
   - component: {fileID: 326426357}
   - component: {fileID: 326426361}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,1)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -5088,7 +5100,7 @@ GameObject:
   - component: {fileID: 352185130}
   - component: {fileID: 352185129}
   - component: {fileID: 352185133}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,13)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -5272,7 +5284,7 @@ GameObject:
   - component: {fileID: 384590061}
   - component: {fileID: 384590060}
   - component: {fileID: 384590064}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,4)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -5388,7 +5400,7 @@ GameObject:
   - component: {fileID: 400100889}
   - component: {fileID: 400100888}
   - component: {fileID: 400100892}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,8)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -5538,7 +5550,7 @@ GameObject:
   - component: {fileID: 429278815}
   - component: {fileID: 429278814}
   - component: {fileID: 429278818}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,13)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -5654,7 +5666,7 @@ GameObject:
   - component: {fileID: 441544492}
   - component: {fileID: 441544491}
   - component: {fileID: 441544495}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,12)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -5856,7 +5868,7 @@ GameObject:
   - component: {fileID: 449550133}
   - component: {fileID: 449550132}
   - component: {fileID: 449550136}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,11)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -6058,7 +6070,7 @@ GameObject:
   - component: {fileID: 455279210}
   - component: {fileID: 455279209}
   - component: {fileID: 455279213}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,3)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -6174,7 +6186,7 @@ GameObject:
   - component: {fileID: 456189087}
   - component: {fileID: 456189086}
   - component: {fileID: 456189090}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,19)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -6290,7 +6302,7 @@ GameObject:
   - component: {fileID: 465611801}
   - component: {fileID: 465611800}
   - component: {fileID: 465611804}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,12)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -6406,7 +6418,7 @@ GameObject:
   - component: {fileID: 467039732}
   - component: {fileID: 467039731}
   - component: {fileID: 467039735}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,5)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -6522,7 +6534,7 @@ GameObject:
   - component: {fileID: 476641830}
   - component: {fileID: 476641829}
   - component: {fileID: 476641833}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,12)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -6638,7 +6650,7 @@ GameObject:
   - component: {fileID: 484911632}
   - component: {fileID: 484911631}
   - component: {fileID: 484911635}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,15)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -6754,7 +6766,7 @@ GameObject:
   - component: {fileID: 488095849}
   - component: {fileID: 488095848}
   - component: {fileID: 488095852}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,0)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -6870,7 +6882,7 @@ GameObject:
   - component: {fileID: 489289879}
   - component: {fileID: 489289878}
   - component: {fileID: 489289882}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,8)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -6986,7 +6998,7 @@ GameObject:
   - component: {fileID: 490979806}
   - component: {fileID: 490979805}
   - component: {fileID: 490979809}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,6)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -7102,7 +7114,7 @@ GameObject:
   - component: {fileID: 494445676}
   - component: {fileID: 494445675}
   - component: {fileID: 494445679}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,3)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -7304,7 +7316,7 @@ GameObject:
   - component: {fileID: 504335286}
   - component: {fileID: 504335285}
   - component: {fileID: 504335289}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,9)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -7420,7 +7432,7 @@ GameObject:
   - component: {fileID: 508240436}
   - component: {fileID: 508240435}
   - component: {fileID: 508240439}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,8)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -7555,8 +7567,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 28.69999}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: 24.1}
+  m_SizeDelta: {x: 160, y: 16.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &514652950
 MonoBehaviour:
@@ -7680,7 +7692,7 @@ GameObject:
   - component: {fileID: 528188038}
   - component: {fileID: 528188037}
   - component: {fileID: 528188041}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,5)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -7796,7 +7808,7 @@ GameObject:
   - component: {fileID: 543858134}
   - component: {fileID: 543858133}
   - component: {fileID: 543858137}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,16)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -7907,10 +7919,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 562895571}
-  - component: {fileID: 562895570}
-  - component: {fileID: 562895572}
   - component: {fileID: 562895574}
   - component: {fileID: 562895573}
+  - component: {fileID: 562895572}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -7918,17 +7929,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &562895570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 562895569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0bb5ec1f593ffd40add1fa44c2d05af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &562895571
 Transform:
   m_ObjectHideFlags: 0
@@ -7950,9 +7950,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 562895569}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1fa710e562d25d46b79aef3caeef8d0, type: 3}
+  m_Script: {fileID: 11500000, guid: 33fc41755175b204e8c03871219c1ee0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MusicMixer: {fileID: 24100000, guid: a2521855388693a4084425a7b106be26, type: 2}
+  SFXMixer: {fileID: 24100000, guid: 5020bfbcc942f224fb79ee68245b752b, type: 2}
   _currentGameSpeed: 2
 --- !u!82 &562895573
 AudioSource:
@@ -7962,7 +7964,8 @@ AudioSource:
   m_GameObject: {fileID: 562895569}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: a2521855388693a4084425a7b106be26,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 8a534670fc2bb1241b3f74bc62970baf, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -8021,7 +8024,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -8068,7 +8071,7 @@ GameObject:
   - component: {fileID: 566132337}
   - component: {fileID: 566132336}
   - component: {fileID: 566132340}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,2)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -8184,7 +8187,7 @@ GameObject:
   - component: {fileID: 570959965}
   - component: {fileID: 570959964}
   - component: {fileID: 570959968}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,11)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -8300,7 +8303,7 @@ GameObject:
   - component: {fileID: 584082545}
   - component: {fileID: 584082544}
   - component: {fileID: 584082548}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,11)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -8416,7 +8419,7 @@ GameObject:
   - component: {fileID: 587791236}
   - component: {fileID: 587791235}
   - component: {fileID: 587791239}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,2)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -8618,7 +8621,7 @@ GameObject:
   - component: {fileID: 620262355}
   - component: {fileID: 620262354}
   - component: {fileID: 620262358}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,18)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -8734,7 +8737,7 @@ GameObject:
   - component: {fileID: 626441409}
   - component: {fileID: 626441408}
   - component: {fileID: 626441412}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,10)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -8850,7 +8853,7 @@ GameObject:
   - component: {fileID: 640475854}
   - component: {fileID: 640475853}
   - component: {fileID: 640475857}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,0)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -8966,7 +8969,7 @@ GameObject:
   - component: {fileID: 644400959}
   - component: {fileID: 644400958}
   - component: {fileID: 644400962}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,16)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -9272,7 +9275,7 @@ GameObject:
   - component: {fileID: 672685745}
   - component: {fileID: 672685744}
   - component: {fileID: 672685748}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,14)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -9388,7 +9391,7 @@ GameObject:
   - component: {fileID: 690251278}
   - component: {fileID: 690251277}
   - component: {fileID: 690251281}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,1)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -9504,7 +9507,7 @@ GameObject:
   - component: {fileID: 694848154}
   - component: {fileID: 694848153}
   - component: {fileID: 694848157}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,6)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -9704,7 +9707,7 @@ GameObject:
   - component: {fileID: 703866166}
   - component: {fileID: 703866165}
   - component: {fileID: 703866169}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,4)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -9807,117 +9810,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OccuPied: 0
---- !u!1 &736322327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 736322328}
-  - component: {fileID: 736322331}
-  - component: {fileID: 736322330}
-  - component: {fileID: 736322329}
-  m_Layer: 5
-  m_Name: btn_SaveGame
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &736322328
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 736322327}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 13.426278}
-  m_LocalScale: {x: 0.99965703, y: 0.99965656, z: 0.99965703}
-  m_Children:
-  - {fileID: 1517264748}
-  m_Father: {fileID: 1730381554}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -139.34637, y: -45.226414}
-  m_SizeDelta: {x: 271.3, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &736322329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 736322327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 736322330}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &736322330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 736322327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 846bd3506483f8b4d8f8b2d906d00dc5, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &736322331
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 736322327}
 --- !u!1 &750218084
 GameObject:
   m_ObjectHideFlags: 0
@@ -10007,7 +9899,7 @@ GameObject:
   - component: {fileID: 760309564}
   - component: {fileID: 760309563}
   - component: {fileID: 760309567}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,0)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -10244,7 +10136,7 @@ GameObject:
   - component: {fileID: 796647399}
   - component: {fileID: 796647398}
   - component: {fileID: 796647402}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,1)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -10360,7 +10252,7 @@ GameObject:
   - component: {fileID: 799822841}
   - component: {fileID: 799822840}
   - component: {fileID: 799822844}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,2)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -10544,7 +10436,7 @@ GameObject:
   - component: {fileID: 850079725}
   - component: {fileID: 850079724}
   - component: {fileID: 850079728}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,15)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -10660,7 +10552,7 @@ GameObject:
   - component: {fileID: 856573076}
   - component: {fileID: 856573075}
   - component: {fileID: 856573079}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,18)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -10776,7 +10668,7 @@ GameObject:
   - component: {fileID: 864829119}
   - component: {fileID: 864829118}
   - component: {fileID: 864829122}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,5)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -10916,7 +10808,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4111068309231800, guid: 03890c2d78ba8144a92f5ce9cf04e2cf, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 03890c2d78ba8144a92f5ce9cf04e2cf, type: 2}
@@ -11036,7 +10928,7 @@ GameObject:
   - component: {fileID: 879134252}
   - component: {fileID: 879134251}
   - component: {fileID: 879134255}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,5)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -11152,7 +11044,7 @@ GameObject:
   - component: {fileID: 886472630}
   - component: {fileID: 886472629}
   - component: {fileID: 886472633}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,17)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -11268,7 +11160,7 @@ GameObject:
   - component: {fileID: 893797061}
   - component: {fileID: 893797060}
   - component: {fileID: 893797064}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,2)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -11425,7 +11317,7 @@ GameObject:
   - component: {fileID: 915139482}
   - component: {fileID: 915139481}
   - component: {fileID: 915139485}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,6)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -11589,7 +11481,7 @@ GameObject:
   - component: {fileID: 963562279}
   - component: {fileID: 963562278}
   - component: {fileID: 963562282}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,9)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -11705,7 +11597,7 @@ GameObject:
   - component: {fileID: 968206078}
   - component: {fileID: 968206077}
   - component: {fileID: 968206081}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,13)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -11821,7 +11713,7 @@ GameObject:
   - component: {fileID: 976337578}
   - component: {fileID: 976337577}
   - component: {fileID: 976337581}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,11)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -11937,7 +11829,7 @@ GameObject:
   - component: {fileID: 977990703}
   - component: {fileID: 977990702}
   - component: {fileID: 977990706}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,3)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -12137,7 +12029,7 @@ GameObject:
   - component: {fileID: 998603161}
   - component: {fileID: 998603160}
   - component: {fileID: 998603164}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,10)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -12253,7 +12145,7 @@ GameObject:
   - component: {fileID: 1002207014}
   - component: {fileID: 1002207013}
   - component: {fileID: 1002207017}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,12)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -12579,7 +12471,7 @@ GameObject:
   - component: {fileID: 1005898810}
   - component: {fileID: 1005898809}
   - component: {fileID: 1005898813}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,13)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -12700,7 +12592,7 @@ GameObject:
   - component: {fileID: 1011782292}
   - component: {fileID: 1011782291}
   - component: {fileID: 1011782295}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,2)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -12816,7 +12708,7 @@ GameObject:
   - component: {fileID: 1012178005}
   - component: {fileID: 1012178004}
   - component: {fileID: 1012178008}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,19)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -12932,7 +12824,7 @@ GameObject:
   - component: {fileID: 1019880733}
   - component: {fileID: 1019880732}
   - component: {fileID: 1019880736}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,19)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -13048,7 +12940,7 @@ GameObject:
   - component: {fileID: 1021483337}
   - component: {fileID: 1021483336}
   - component: {fileID: 1021483340}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,15)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -13164,7 +13056,7 @@ GameObject:
   - component: {fileID: 1040414800}
   - component: {fileID: 1040414799}
   - component: {fileID: 1040414803}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,19)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -13280,7 +13172,7 @@ GameObject:
   - component: {fileID: 1051114110}
   - component: {fileID: 1051114109}
   - component: {fileID: 1051114113}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,11)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -13470,7 +13362,7 @@ GameObject:
   - component: {fileID: 1061394735}
   - component: {fileID: 1061394734}
   - component: {fileID: 1061394738}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,11)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -13586,7 +13478,7 @@ GameObject:
   - component: {fileID: 1073849777}
   - component: {fileID: 1073849776}
   - component: {fileID: 1073849780}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,6)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -13702,7 +13594,7 @@ GameObject:
   - component: {fileID: 1076326170}
   - component: {fileID: 1076326169}
   - component: {fileID: 1076326173}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,4)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -13818,7 +13710,7 @@ GameObject:
   - component: {fileID: 1076628432}
   - component: {fileID: 1076628431}
   - component: {fileID: 1076628435}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,12)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -13934,7 +13826,7 @@ GameObject:
   - component: {fileID: 1087369162}
   - component: {fileID: 1087369161}
   - component: {fileID: 1087369165}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,15)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -14163,7 +14055,7 @@ GameObject:
   - component: {fileID: 1098483316}
   - component: {fileID: 1098483315}
   - component: {fileID: 1098483319}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,14)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -14279,7 +14171,7 @@ GameObject:
   - component: {fileID: 1099793928}
   - component: {fileID: 1099793927}
   - component: {fileID: 1099793931}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,3)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -14395,7 +14287,7 @@ GameObject:
   - component: {fileID: 1109364887}
   - component: {fileID: 1109364886}
   - component: {fileID: 1109364890}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,4)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -14511,7 +14403,7 @@ GameObject:
   - component: {fileID: 1129974256}
   - component: {fileID: 1129974255}
   - component: {fileID: 1129974259}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,12)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -14695,7 +14587,7 @@ GameObject:
   - component: {fileID: 1145913548}
   - component: {fileID: 1145913547}
   - component: {fileID: 1145913551}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,6)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -14811,7 +14703,7 @@ GameObject:
   - component: {fileID: 1154734078}
   - component: {fileID: 1154734077}
   - component: {fileID: 1154734081}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,3)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -14995,7 +14887,7 @@ GameObject:
   - component: {fileID: 1168317471}
   - component: {fileID: 1168317470}
   - component: {fileID: 1168317474}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,18)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -15111,7 +15003,7 @@ GameObject:
   - component: {fileID: 1179364255}
   - component: {fileID: 1179364254}
   - component: {fileID: 1179364258}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,9)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -15227,7 +15119,7 @@ GameObject:
   - component: {fileID: 1184256178}
   - component: {fileID: 1184256177}
   - component: {fileID: 1184256181}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,9)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -15343,7 +15235,7 @@ GameObject:
   - component: {fileID: 1188381197}
   - component: {fileID: 1188381196}
   - component: {fileID: 1188381200}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,13)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -15459,7 +15351,7 @@ GameObject:
   - component: {fileID: 1201511334}
   - component: {fileID: 1201511333}
   - component: {fileID: 1201511337}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,2)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -15575,7 +15467,7 @@ GameObject:
   - component: {fileID: 1217262995}
   - component: {fileID: 1217262994}
   - component: {fileID: 1217262998}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,11)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -15691,7 +15583,7 @@ GameObject:
   - component: {fileID: 1229427687}
   - component: {fileID: 1229427686}
   - component: {fileID: 1229427690}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,9)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -15807,7 +15699,7 @@ GameObject:
   - component: {fileID: 1230329208}
   - component: {fileID: 1230329207}
   - component: {fileID: 1230329211}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,13)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -15923,7 +15815,7 @@ GameObject:
   - component: {fileID: 1241160780}
   - component: {fileID: 1241160779}
   - component: {fileID: 1241160778}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,18) (1)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -16147,8 +16039,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 28.69999}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: 27}
+  m_SizeDelta: {x: 160, y: 16.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1250952772
 MonoBehaviour:
@@ -16204,7 +16096,7 @@ GameObject:
   - component: {fileID: 1268628199}
   - component: {fileID: 1268628198}
   - component: {fileID: 1268628202}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,0)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -16320,7 +16212,7 @@ GameObject:
   - component: {fileID: 1280759348}
   - component: {fileID: 1280759347}
   - component: {fileID: 1280759351}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,15)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -16436,7 +16328,7 @@ GameObject:
   - component: {fileID: 1281430292}
   - component: {fileID: 1281430291}
   - component: {fileID: 1281430295}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,9)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -16552,7 +16444,7 @@ GameObject:
   - component: {fileID: 1290123993}
   - component: {fileID: 1290123992}
   - component: {fileID: 1290123996}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,15)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -16668,7 +16560,7 @@ GameObject:
   - component: {fileID: 1304449113}
   - component: {fileID: 1304449112}
   - component: {fileID: 1304449116}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,8)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -16784,7 +16676,7 @@ GameObject:
   - component: {fileID: 1320994145}
   - component: {fileID: 1320994144}
   - component: {fileID: 1320994148}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,3)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -16900,7 +16792,7 @@ GameObject:
   - component: {fileID: 1331614690}
   - component: {fileID: 1331614689}
   - component: {fileID: 1331614693}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,17)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -17084,7 +16976,7 @@ GameObject:
   - component: {fileID: 1335107387}
   - component: {fileID: 1335107386}
   - component: {fileID: 1335107390}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,6)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -17200,7 +17092,7 @@ GameObject:
   - component: {fileID: 1335480961}
   - component: {fileID: 1335480960}
   - component: {fileID: 1335480964}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,15)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -17316,7 +17208,7 @@ GameObject:
   - component: {fileID: 1338870170}
   - component: {fileID: 1338870169}
   - component: {fileID: 1338870173}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,13)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -17432,7 +17324,7 @@ GameObject:
   - component: {fileID: 1342430148}
   - component: {fileID: 1342430147}
   - component: {fileID: 1342430151}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,11)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -17616,7 +17508,7 @@ GameObject:
   - component: {fileID: 1349337449}
   - component: {fileID: 1349337448}
   - component: {fileID: 1349337452}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,16)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -17732,7 +17624,7 @@ GameObject:
   - component: {fileID: 1356345325}
   - component: {fileID: 1356345324}
   - component: {fileID: 1356345328}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,7)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -17923,7 +17815,7 @@ RectTransform:
   - {fileID: 659284569}
   - {fileID: 1551800109}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -18154,7 +18046,7 @@ GameObject:
   - component: {fileID: 1383887404}
   - component: {fileID: 1383887403}
   - component: {fileID: 1383887407}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,7)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -18270,7 +18162,7 @@ GameObject:
   - component: {fileID: 1384184818}
   - component: {fileID: 1384184817}
   - component: {fileID: 1384184821}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,0)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -18386,7 +18278,7 @@ GameObject:
   - component: {fileID: 1400141732}
   - component: {fileID: 1400141731}
   - component: {fileID: 1400141735}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,2)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -18502,7 +18394,7 @@ GameObject:
   - component: {fileID: 1420737095}
   - component: {fileID: 1420737094}
   - component: {fileID: 1420737098}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,4)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -18618,7 +18510,7 @@ GameObject:
   - component: {fileID: 1422596628}
   - component: {fileID: 1422596627}
   - component: {fileID: 1422596631}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,16)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -18817,7 +18709,7 @@ MonoBehaviour:
   rayPoint: {fileID: 870795017}
   _LayerMask:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 1280
   grid: {fileID: 913140454}
 --- !u!114 &1437871855
 MonoBehaviour:
@@ -18974,11 +18866,11 @@ RectTransform:
   - {fileID: 1471909655}
   - {fileID: 1250952771}
   m_Father: {fileID: 45561956}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 122.00001, y: 78}
+  m_AnchoredPosition: {x: -99.00001, y: 46.99999}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1446929020
@@ -19020,13 +18912,24 @@ MonoBehaviour:
   m_FillRect: {fileID: 1527399525}
   m_HandleRect: {fileID: 16352293}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -40
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 562895572}
+        m_MethodName: SetMusicVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &1455847195
@@ -19042,7 +18945,7 @@ GameObject:
   - component: {fileID: 1455847198}
   - component: {fileID: 1455847197}
   - component: {fileID: 1455847201}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,10)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -19261,80 +19164,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1466314486}
---- !u!1 &1467019229
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1467019230}
-  - component: {fileID: 1467019232}
-  - component: {fileID: 1467019231}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1467019230
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1467019229}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1740363264}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1467019231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1467019229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Change LVL
---- !u!222 &1467019232
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1467019229}
 --- !u!1 &1467561670
 GameObject:
   m_ObjectHideFlags: 0
@@ -19348,7 +19177,7 @@ GameObject:
   - component: {fileID: 1467561673}
   - component: {fileID: 1467561672}
   - component: {fileID: 1467561676}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,8)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -19538,7 +19367,7 @@ GameObject:
   - component: {fileID: 1470477087}
   - component: {fileID: 1470477086}
   - component: {fileID: 1470477090}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,9)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -19688,7 +19517,7 @@ GameObject:
   - component: {fileID: 1484256413}
   - component: {fileID: 1484256412}
   - component: {fileID: 1484256416}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,10)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -19804,7 +19633,7 @@ GameObject:
   - component: {fileID: 1493331475}
   - component: {fileID: 1493331474}
   - component: {fileID: 1493331478}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,8)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -19969,154 +19798,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1505660391
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1505660392}
-  - component: {fileID: 1505660394}
-  - component: {fileID: 1505660393}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1505660392
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1505660391}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1908580938}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1505660393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1505660391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Restart
---- !u!222 &1505660394
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1505660391}
---- !u!1 &1517264747
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1517264748}
-  - component: {fileID: 1517264750}
-  - component: {fileID: 1517264749}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1517264748
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1517264747}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 736322328}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1517264749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1517264747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Save Game
---- !u!222 &1517264750
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1517264747}
 --- !u!1 &1527399524
 GameObject:
   m_ObjectHideFlags: 0
@@ -20198,7 +19879,7 @@ GameObject:
   - component: {fileID: 1533725640}
   - component: {fileID: 1533725639}
   - component: {fileID: 1533725643}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,16)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -20436,7 +20117,7 @@ GameObject:
   - component: {fileID: 1541431443}
   - component: {fileID: 1541431442}
   - component: {fileID: 1541431446}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,0)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -20552,7 +20233,7 @@ GameObject:
   - component: {fileID: 1550553133}
   - component: {fileID: 1550553132}
   - component: {fileID: 1550553136}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (3,11)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -20804,7 +20485,7 @@ GameObject:
   - component: {fileID: 1619880049}
   - component: {fileID: 1619880048}
   - component: {fileID: 1619880052}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,12)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -20920,7 +20601,7 @@ GameObject:
   - component: {fileID: 1624295465}
   - component: {fileID: 1624295464}
   - component: {fileID: 1624295468}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,6)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -21104,7 +20785,7 @@ GameObject:
   - component: {fileID: 1636897171}
   - component: {fileID: 1636897170}
   - component: {fileID: 1636897174}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,17)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -21220,7 +20901,7 @@ GameObject:
   - component: {fileID: 1640060309}
   - component: {fileID: 1640060308}
   - component: {fileID: 1640060312}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,14)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -21336,7 +21017,7 @@ GameObject:
   - component: {fileID: 1649256135}
   - component: {fileID: 1649256134}
   - component: {fileID: 1649256138}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,3)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -21452,7 +21133,7 @@ GameObject:
   - component: {fileID: 1681198204}
   - component: {fileID: 1681198203}
   - component: {fileID: 1681198207}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,18)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -21568,7 +21249,7 @@ GameObject:
   - component: {fileID: 1683698352}
   - component: {fileID: 1683698351}
   - component: {fileID: 1683698355}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,5)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -21770,7 +21451,7 @@ GameObject:
   - component: {fileID: 1696805910}
   - component: {fileID: 1696805909}
   - component: {fileID: 1696805913}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,18)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -21886,7 +21567,7 @@ GameObject:
   - component: {fileID: 1698496294}
   - component: {fileID: 1698496293}
   - component: {fileID: 1698496297}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,4)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -22088,7 +21769,7 @@ GameObject:
   - component: {fileID: 1717745480}
   - component: {fileID: 1717745479}
   - component: {fileID: 1717745483}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,8)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -22191,117 +21872,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OccuPied: 0
---- !u!1 &1730381549
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1730381554}
-  - component: {fileID: 1730381553}
-  - component: {fileID: 1730381552}
-  - component: {fileID: 1730381551}
-  - component: {fileID: 1730381550}
-  m_Layer: 5
-  m_Name: Options Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1730381550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1730381549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1518a5e598c7da244bc4850d3ae63354, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickOnPointerCollision: 0
-  autoActivateWithinDistance: 0
---- !u!114 &1730381551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1730381549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1730381552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1730381549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!223 &1730381553
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1730381549}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1730381554
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1730381549}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4.83}
-  m_LocalScale: {x: 0.0075225844, y: 0.0075225844, z: 0.0075225844}
-  m_Children:
-  - {fileID: 1740363264}
-  - {fileID: 1908580938}
-  - {fileID: 736322328}
-  - {fileID: 1926283608}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.81, y: 1.991}
-  m_SizeDelta: {x: 750.4, y: 284.5}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1737917928
 GameObject:
   m_ObjectHideFlags: 0
@@ -22315,7 +21885,7 @@ GameObject:
   - component: {fileID: 1737917931}
   - component: {fileID: 1737917930}
   - component: {fileID: 1737917934}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,18)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -22418,117 +21988,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OccuPied: 0
---- !u!1 &1740363263
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1740363264}
-  - component: {fileID: 1740363267}
-  - component: {fileID: 1740363266}
-  - component: {fileID: 1740363265}
-  m_Layer: 5
-  m_Name: btn_ChangeLevel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1740363264
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1740363263}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 13.426278}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1467019230}
-  m_Father: {fileID: 1730381554}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -139.34637, y: 78.47357}
-  m_SizeDelta: {x: 271.3, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1740363265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1740363263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1740363266}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1740363266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1740363263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 846bd3506483f8b4d8f8b2d906d00dc5, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &1740363267
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1740363263}
 --- !u!1 &1750076387
 GameObject:
   m_ObjectHideFlags: 0
@@ -22542,7 +22001,7 @@ GameObject:
   - component: {fileID: 1750076390}
   - component: {fileID: 1750076389}
   - component: {fileID: 1750076393}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,3)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -22658,7 +22117,7 @@ GameObject:
   - component: {fileID: 1764891213}
   - component: {fileID: 1764891212}
   - component: {fileID: 1764891216}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,16)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -22774,7 +22233,7 @@ GameObject:
   - component: {fileID: 1788301727}
   - component: {fileID: 1788301726}
   - component: {fileID: 1788301730}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,6)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -22890,7 +22349,7 @@ GameObject:
   - component: {fileID: 1802534632}
   - component: {fileID: 1802534631}
   - component: {fileID: 1802534635}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,17)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -23006,7 +22465,7 @@ GameObject:
   - component: {fileID: 1815284534}
   - component: {fileID: 1815284533}
   - component: {fileID: 1815284537}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (2,8)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -23206,7 +22665,7 @@ GameObject:
   - component: {fileID: 1818933191}
   - component: {fileID: 1818933190}
   - component: {fileID: 1818933194}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,17)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -23322,7 +22781,7 @@ GameObject:
   - component: {fileID: 1824355618}
   - component: {fileID: 1824355617}
   - component: {fileID: 1824355621}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,5)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -23425,117 +22884,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OccuPied: 0
---- !u!1 &1908580937
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1908580938}
-  - component: {fileID: 1908580941}
-  - component: {fileID: 1908580940}
-  - component: {fileID: 1908580939}
-  m_Layer: 5
-  m_Name: btn_Restart
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1908580938
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1908580937}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 13.426278}
-  m_LocalScale: {x: 0.99965703, y: 0.99965656, z: 0.99965703}
-  m_Children:
-  - {fileID: 1505660392}
-  m_Father: {fileID: 1730381554}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -139.34637, y: 16.573574}
-  m_SizeDelta: {x: 271.3, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1908580939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1908580937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1908580940}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1908580940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1908580937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 846bd3506483f8b4d8f8b2d906d00dc5, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &1908580941
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1908580937}
 --- !u!1 &1914304443
 GameObject:
   m_ObjectHideFlags: 0
@@ -23627,12 +22975,12 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1926283607}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6325084, y: 1.5937927, z: 1}
+  m_LocalScale: {x: 1.6325085, y: 1.5937928, z: 1}
   m_Children: []
-  m_Father: {fileID: 1730381554}
-  m_RootOrder: 3
+  m_Father: {fileID: 45561956}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -23685,7 +23033,7 @@ GameObject:
   - component: {fileID: 1933791175}
   - component: {fileID: 1933791174}
   - component: {fileID: 1933791178}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (0,3)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -23801,7 +23149,7 @@ GameObject:
   - component: {fileID: 1937465409}
   - component: {fileID: 1937465408}
   - component: {fileID: 1937465412}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,4)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -23917,7 +23265,7 @@ GameObject:
   - component: {fileID: 1968870874}
   - component: {fileID: 1968870873}
   - component: {fileID: 1968870877}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,0)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -24033,7 +23381,7 @@ GameObject:
   - component: {fileID: 1969540456}
   - component: {fileID: 1969540455}
   - component: {fileID: 1969540459}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,9)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -24149,7 +23497,7 @@ GameObject:
   - component: {fileID: 1979829478}
   - component: {fileID: 1979829477}
   - component: {fileID: 1979829481}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (6,4)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -24265,7 +23613,7 @@ GameObject:
   - component: {fileID: 1983189552}
   - component: {fileID: 1983189551}
   - component: {fileID: 1983189555}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,14)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -24551,7 +23899,7 @@ GameObject:
   - component: {fileID: 2021178148}
   - component: {fileID: 2021178147}
   - component: {fileID: 2021178151}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,4)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -24667,7 +24015,7 @@ GameObject:
   - component: {fileID: 2028599637}
   - component: {fileID: 2028599636}
   - component: {fileID: 2028599640}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,18)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -24807,7 +24155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 122, y: -41}
+  m_AnchoredPosition: {x: -99, y: -72}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2032051307
@@ -24922,7 +24270,7 @@ GameObject:
   - component: {fileID: 2032608120}
   - component: {fileID: 2032608119}
   - component: {fileID: 2032608123}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (5,12)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -25062,7 +24410,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4455680532662148, guid: df43d80deaa770c42a67a72ffe71c50f, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 114026638413482292, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
@@ -25072,332 +24420,337 @@ Prefab:
     - target: {fileID: 224514073683519664, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224514073683519664, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224514073683519664, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 224514073683519664, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 224514073683519664, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 224514073683519664, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 224897056397390954, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224897056397390954, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224897056397390954, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 224897056397390954, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 224897056397390954, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 121
       objectReference: {fileID: 0}
     - target: {fileID: 224897056397390954, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 224529318845405610, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224529318845405610, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224529318845405610, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 224529318845405610, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 224529318845405610, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 132
       objectReference: {fileID: 0}
     - target: {fileID: 224529318845405610, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 224128153827367370, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224128153827367370, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224128153827367370, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 224128153827367370, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 224128153827367370, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 132
       objectReference: {fileID: 0}
     - target: {fileID: 224128153827367370, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 224895607554498252, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224895607554498252, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224895607554498252, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 224895607554498252, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -55
       objectReference: {fileID: 0}
     - target: {fileID: 224895607554498252, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 132
       objectReference: {fileID: 0}
     - target: {fileID: 224895607554498252, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 224859762936113866, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224859762936113866, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224859762936113866, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 224859762936113866, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 224859762936113866, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 114
       objectReference: {fileID: 0}
     - target: {fileID: 224859762936113866, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 224280830329505994, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224280830329505994, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224280830329505994, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 224280830329505994, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 224280830329505994, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 121
       objectReference: {fileID: 0}
     - target: {fileID: 224280830329505994, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 224713373884816296, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224713373884816296, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224713373884816296, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 224713373884816296, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 224713373884816296, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 224713373884816296, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 224826546987004402, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224826546987004402, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224826546987004402, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 224826546987004402, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -25.5
       objectReference: {fileID: 0}
     - target: {fileID: 224826546987004402, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 224826546987004402, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 224939745641597102, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224939745641597102, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224939745641597102, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 224939745641597102, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -82
       objectReference: {fileID: 0}
     - target: {fileID: 224939745641597102, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 132
       objectReference: {fileID: 0}
     - target: {fileID: 224939745641597102, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 224191751206462028, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224191751206462028, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224191751206462028, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 232
       objectReference: {fileID: 0}
     - target: {fileID: 224191751206462028, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -70
       objectReference: {fileID: 0}
     - target: {fileID: 224191751206462028, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 142
       objectReference: {fileID: 0}
     - target: {fileID: 224191751206462028, guid: df43d80deaa770c42a67a72ffe71c50f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 114140188903282728, guid: df43d80deaa770c42a67a72ffe71c50f,
+        type: 2}
+      propertyPath: minRenderScale
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: df43d80deaa770c42a67a72ffe71c50f, type: 2}
@@ -25517,7 +24870,7 @@ GameObject:
   - component: {fileID: 2050280855}
   - component: {fileID: 2050280854}
   - component: {fileID: 2050280858}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (8,16)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -25633,7 +24986,7 @@ GameObject:
   - component: {fileID: 2073021979}
   - component: {fileID: 2073021978}
   - component: {fileID: 2073021982}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,2)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -25749,7 +25102,7 @@ GameObject:
   - component: {fileID: 2079455604}
   - component: {fileID: 2079455603}
   - component: {fileID: 2079455607}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (1,14)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -25865,7 +25218,7 @@ GameObject:
   - component: {fileID: 2097772682}
   - component: {fileID: 2097772681}
   - component: {fileID: 2097772685}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (7,14)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -25981,7 +25334,7 @@ GameObject:
   - component: {fileID: 2132395509}
   - component: {fileID: 2132395508}
   - component: {fileID: 2132395512}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (4,18)
   m_TagString: Node
   m_Icon: {fileID: 0}
@@ -26097,7 +25450,7 @@ GameObject:
   - component: {fileID: 2136549982}
   - component: {fileID: 2136549981}
   - component: {fileID: 2136549985}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Quad (9,19)
   m_TagString: Node
   m_Icon: {fileID: 0}
