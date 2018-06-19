@@ -7,6 +7,6 @@ public class MainMenu : MonoBehaviour
     
     public void StartGame()
     {
-        fade.FadeToLevel("Gameplay");
+        fade.FadeToLevel();
     }
 }

@@ -17,17 +17,17 @@ public class PlacementController : MonoBehaviour
     [SerializeField] private LayerMask _LayerMask;
     [SerializeField] private Grid grid;
     public static PlacementController PlacementControllerInstance;
-    
-    
+
+
     private float cooldown = 0;
-    
-    
+
+
     private VRTK_ControllerEvents controllerEvents;
 
     private void Awake()
     {
         controllerEvents = GetComponent<VRTK_ControllerEvents>();
-        
+
         if (PlacementControllerInstance == null)
         {
             PlacementControllerInstance = this;
@@ -52,14 +52,12 @@ public class PlacementController : MonoBehaviour
         if (controllerEvents.IsButtonPressed(VRTK_ControllerEvents.ButtonAlias.ButtonOnePress) && cooldown < 0)
         {
             cooldown = 0.5f;
+
             if (currentPlaceableObject != null)
-            {
                 Destroy(currentPlaceableObject);
-            }
             else
-            {
                 currentPlaceableObject = Instantiate(placeableObjectPrefab);
-            }
+
         }
     }
 
@@ -88,11 +86,11 @@ public class PlacementController : MonoBehaviour
         {
             cooldown = 0.5f;
             avaliableMoney -= CashCost;
+
             if (CashCost <= 0)
-            {
                 CashCost = 0;
-            }
-            currentPlaceableObject = null;  
+
+            currentPlaceableObject = null;
         }
     }
 }

@@ -5,9 +5,8 @@ public class LevelFade : MonoBehaviour
 {
     public Animator Anim;
 
-    public void FadeToLevel(string LevelName)
+    public void FadeToLevel()
     {
-      // SceneManager.LoadScene(LevelName);
        Anim.SetTrigger("FadeOut"); 
     }
 }
