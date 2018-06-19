@@ -1,7 +1,10 @@
-﻿namespace Project.Scripts
+﻿using System.Collections;
+using UnityEngine;
+
+namespace Project.Scripts
 {
-    public class Node
+    public class Node : MonoBehaviour
     {
-        
+        public bool OccuPied;
     }
 }

@@ -3,13 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void LoadGame()
+    public LevelFade fade;
+    
+    public void StartGame()
     {
-        SceneManager.LoadScene("Gameplay");
-    }
-
-    public void ViewControls()
-    {
-        //Display control map here.
+        fade.FadeToLevel("Gameplay");
     }
 }

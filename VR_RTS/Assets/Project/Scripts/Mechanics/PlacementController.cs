@@ -1,8 +1,13 @@
-﻿using UnityEngine;
+﻿using Project.Scripts;
+using UnityEngine;
+using VRTK;
 
 public class PlacementController : MonoBehaviour
 {
-    [SerializeField] private GameObject placeableObjectPrefab;
+    public GameObject placeableObjectPrefab;
+    public int CashCost;
+
+    public int avaliableMoney = 400;
 
     private GameObject currentPlaceableObject;
 
@@ -11,9 +16,27 @@ public class PlacementController : MonoBehaviour
     public Transform rayPoint;
     [SerializeField] private LayerMask _LayerMask;
     [SerializeField] private Grid grid;
+    public static PlacementController PlacementControllerInstance;
+    
+    
+    private float cooldown = 0;
+    
+    
+    private VRTK_ControllerEvents controllerEvents;
+
+    private void Awake()
+    {
+        controllerEvents = GetComponent<VRTK_ControllerEvents>();
+        
+        if (PlacementControllerInstance == null)
+        {
+            PlacementControllerInstance = this;
+        }
+    }
 
     private void Update()
     {
+        cooldown -= Time.deltaTime;
         HandleNewObjectHotkey();
 
         if (currentPlaceableObject != null)
@@ -26,8 +49,9 @@ public class PlacementController : MonoBehaviour
 
     private void HandleNewObjectHotkey()
     {
-        if (OVRInput.GetDown(OVRInput.Button.One))
+        if (controllerEvents.IsButtonPressed(VRTK_ControllerEvents.ButtonAlias.ButtonOnePress) && cooldown < 0)
         {
+            cooldown = 0.5f;
             if (currentPlaceableObject != null)
             {
                 Destroy(currentPlaceableObject);
@@ -47,7 +71,7 @@ public class PlacementController : MonoBehaviour
         {
             currentPlaceableObject.transform.position = hitInfo.point;
             currentPlaceableObject.transform.rotation = Quaternion.FromToRotation(Vector3.up, hitInfo.normal);
-            currentPlaceableObject.transform.position = grid.GetNearestPointOnGrid(hitInfo.point);
+            currentPlaceableObject.transform.position = hitInfo.collider.transform.position;
         }
     }
 
@@ -60,11 +84,14 @@ public class PlacementController : MonoBehaviour
 
     private void ReleaseIfClicked()
     {
-        if (Resourcesources.avaliableResources.UseResources(300) == false)
-            return;
-
-        if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
+        if (controllerEvents.IsButtonPressed(VRTK_ControllerEvents.ButtonAlias.TriggerPress) && cooldown < 0 && avaliableMoney >= CashCost)
         {
+            cooldown = 0.5f;
+            avaliableMoney -= CashCost;
+            if (CashCost <= 0)
+            {
+                CashCost = 0;
+            }
             currentPlaceableObject = null;  
         }
     }

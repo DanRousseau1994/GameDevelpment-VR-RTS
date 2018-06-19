@@ -8,6 +8,6 @@ public class DisplayManager : MonoBehaviour
     private void Start()
     {
         OVRManager.tiledMultiResLevel = OVRManager.TiledMultiResLevel.LMSHigh;
-        OVRManager.display.displayFrequency = 10.0f;
+        OVRManager.display.displayFrequency = 75.0f;
     }
 }

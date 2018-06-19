@@ -1,13 +1,15 @@
-1. Building Placement
+1. Building Placement(Done)
 
 2. Unit Building
 
-3. Formations
+3. Formations(Half Way)
 
-4. Main Menu
+4. Main Menu(Half way)
 
 5. Fade in and out
  
 6. Basic enemy
 
-7. Resource System
+7. Basic Resource System(Done)
+
+8. Select
