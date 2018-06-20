@@ -930,7 +930,7 @@ Transform:
   - {fileID: 1719702796}
   - {fileID: 896222847}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &496738762
 GameObject:
@@ -4531,6 +4531,7 @@ MonoBehaviour:
   autoLoadSetup: 1
   setups:
   - {fileID: 7804968}
+  - {fileID: 1536968489}
   excludeTargetGroups: 1b0000001a000000
   persistOnLoad: 0
 --- !u!4 &1853653144

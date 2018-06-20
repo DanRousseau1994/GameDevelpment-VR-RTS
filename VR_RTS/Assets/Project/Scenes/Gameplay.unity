@@ -861,7 +861,7 @@ RectTransform:
   - {fileID: 1446929019}
   - {fileID: 109655261}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9758,7 +9758,7 @@ GameObject:
   - component: {fileID: 750218087}
   - component: {fileID: 750218086}
   m_Layer: 5
-  m_Name: Score
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11393,7 +11393,7 @@ Transform:
   - {fileID: 326638635}
   - {fileID: 163360837}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963562276
 GameObject:
@@ -15906,7 +15906,7 @@ Transform:
   m_LocalScale: {x: 0.1430885, y: 0.1430885, z: 0.1430885}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1250952770
 GameObject:
@@ -24725,6 +24725,11 @@ Prefab:
       propertyPath: setups.Array.data[1]
       value: 
       objectReference: {fileID: 1128071714}
+    - target: {fileID: 20766502995812906, guid: df43d80deaa770c42a67a72ffe71c50f,
+        type: 2}
+      propertyPath: m_AllowMSAA
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: df43d80deaa770c42a67a72ffe71c50f, type: 2}
   m_IsPrefabParent: 0

@@ -1,18 +1,17 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class Bullet : MonoBehaviour
 {
     private Transform target;
-
     public float speed = 70f;
-  //  public GameObject impactEffect;
+    [SerializeField] private UnityEvent HitEvent;
 
     public void Seek(Transform _target)
     {
         target = _target;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (target == null)
@@ -36,7 +35,6 @@ public class Bullet : MonoBehaviour
     void HitTarget()
     {
         Destroy(target.gameObject);
-        PlacementController.PlacementControllerInstance.avaliableMoney += 5;
-        Destroy(gameObject);
+        HitEvent.Invoke();
     }
 }

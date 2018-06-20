@@ -93,4 +93,10 @@ public class PlacementController : MonoBehaviour
             currentPlaceableObject = null;
         }
     }
+
+
+    public void AddCash()
+    {
+        avaliableMoney += 75;
+    }
 }

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 public class Enemy : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class Enemy : MonoBehaviour
     private NavMeshAgent _agent;
 
     public int damageValue;
+
+    [SerializeField] private UnityEvent DeathEvent;
 
 
     public void Initilaze(Transform target)
@@ -22,7 +25,13 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject != _target.gameObject) return;
 
-        //POOL HERE
-        Destroy(gameObject);
+        DeathEvent.Invoke();
     }
+
+
+    public void HandleDeath()
+    {
+        PlacementController.PlacementControllerInstance.avaliableMoney += 75;
+    }
+        
 }
